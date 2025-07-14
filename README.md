@@ -1,3 +1,2 @@
 # Cyfuture_Project
-this project is for hackathon
-nmmm
+Project idea:Smart study planner.
