@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <input id="i" type="text" placeholder="Type and reload" />
+    <script>
+      const inp = document.getElementById('i');
+      inp.value = localStorage.getItem('demo') || '';
+      inp.addEventListener('input', () => {
+        localStorage.setItem('demo', inp.value);
+      });
+    </script>
+  </body>
+</html>
